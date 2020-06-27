@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main"> 
+        <div class="top">Calculator</div>
+        <div>
+            <input id="result" class="final" type="text" placeholder="0" >
+        </div>
+        <div>
+            <button class="clrBtn" onclick="clearResult()">C</button>
+            <input type="button"   class="btn" onclick="backspace()" value="&lArr;">
+            <input type="button"   class="btn" onclick="getsqRoot()" value="&radic;">
+            <input type="button"   class="btn" onclick="getsquare()" value="&Hat;">
+
+        </div>
+        <div >
+            <button class="btn" onclick="getNumber('7')">7</button>
+
+            <button class="btn" onclick="getNumber('8')">8</button>
+
+            <button class="btn" onclick="getNumber('9')">9</button>
+
+            <button class="btn" onclick="getNumber('/')">/</button>
+            <button class="btn" onclick="getNumber('(')">(</button>
+
+        </div>
+        <div>
+            <button class="btn"onclick="getNumber('4')">4</button>
+
+            <button class="btn"onclick="getNumber('5')">5</button>
+
+            <button class="btn"onclick="getNumber('6')">6</button>
+
+            <button class="btn"onclick="getNumber('*')">*</button>
+            <button class="btn" onclick="getNumber(')')">)</button>
+
+        </div>
+        <div>
+            <button class="btn"onclick="getNumber('1')">1</button>
+
+            <button class="btn"onclick="getNumber('2')">2</button>
+
+            <button class="btn"onclick="getNumber('3')">3</button>
+
+            <button class="btn"onclick="getNumber('-')">-</button>
+            <button class="btnEq"onclick="getResult()">=</button>
+
+         
+            <button class="btnEnd"onclick="getNumber('0')">0</button>
+            <button class="btn"onclick="getNumber('.')">.</button>
+            <button class="btn"onclick="getNumber('+')">+</button>
+
+ 
+        </div>
+        <div class="bottom">Made By Alee</div>
+        <div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

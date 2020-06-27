@@ -1,0 +1,85 @@
+.main{
+    border:4px solid black;
+    width: 251px;
+    height: 326px;
+    margin: 0 auto;
+border-radius: 10px;
+background-color: white;
+ }
+.top{
+    height: 40px;
+    text-align: center;
+    font-size: 24px;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.final{
+    margin-top: 5px;
+    width: 96%;
+    margin-left: 2px;
+    border-radius: 5px;
+     height: 40px;
+    font-size: 24px;
+    background-color: lightcyan;
+    color: black;
+ }
+.clrBtn{
+    width: 97px;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: bold;
+     background-color: lightcoral;
+    color: white;  
+    margin-bottom: 3px;
+    height: 38px;
+    border-radius: 5px;
+}
+
+.btn{
+      width: 45px;
+    margin: 1px;
+    margin-top: 2px;
+    font-size: 16px;
+     height: 38px;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+.btnEnd{
+    width: 97px;
+    margin: 1px;
+    font-weight: bold;
+    height: 38px;
+    background-color: whitesmoke;
+    color: black;    
+    margin-top: 2px;
+    font-size: 16px;
+    border-radius: 5px;
+ 
+}
+.btnEq{
+    width: 45px;
+     float: right;
+    margin: 1px;
+    margin-top: 2px;
+    font-size: 16px;
+     background-color: lightgreen;
+    color: white;
+    height: 80px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.bottom{
+    height: 20px;
+    text-align: center;
+    font-size: 14px;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    margin-top: 2px;
+    
+}
